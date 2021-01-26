@@ -1,0 +1,98 @@
+.item_page{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px - 50px);
+}
+.item_block{
+    margin: auto;
+    width: 730px;
+    background-color: rgba(84, 84, 84, 0.8);
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.back{
+    margin-left: 5%;
+    background-color:  #7eabdbdc;
+}
+
+.menu__item{
+    position: relative;
+}
+.menu__title {
+    font-weight: 700;
+}
+
+.menu__titles_container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu__warn {
+    color: rgb(185, 12, 12);
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.menu__descr {
+    padding-bottom: 1%;
+    text-align: center;
+}
+.menu__img{
+    object-fit: cover;
+}
+
+.menu__category_Img{
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pizza {
+    background-image: url('./icons/pizza.png');
+    width: 70px;
+    height: 70px;
+}
+.salads {
+    background-image: url('./icons/salad.svg');
+    width: 90px;
+    height: 70px;
+}
+.meat{
+    background-image: url('./icons/meat.png');
+}
+
+
+.menu__allerg_Img{
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    right: 35px;
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.egg {
+    background-image: url('./icons/egg.svg');
+    width: 70px;
+    height: 70px;
+}
+.wheat {
+    background-image: url('./icons/grain.svg');
+    width: 80px;
+    height: 75px;
+}
+.milk {
+    background-image: url('./icons/milk.svg');
+}
