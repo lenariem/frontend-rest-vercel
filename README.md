@@ -2,7 +2,7 @@
 
 **to take a look please click this link:** 
 
-https://frontend-rest-react.herokuapp.com/ 
+https://frontend-rest-vercel.vercel.app/ 
 
 ### Technologies used: 
 * React JS (Redux, Context);
@@ -10,7 +10,7 @@ https://frontend-rest-react.herokuapp.com/
 * SCSS;
 * Node.js/Express; 
 * MongoDB/Mongoose;
-* Heroku
+* Vercel
 
 ### User can:
 * investigate menu and sort by categories;
