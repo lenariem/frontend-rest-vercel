@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -16,17 +17,20 @@ li {
     list-style: none;
 }
 
+
 //MEDIA
 @media (max-width: 1200px) {
     .welcome {
         &__title {
             padding-top: 2.5%;
             font-size: 2rem;
-            text-shadow: #3b3b3b 2px 2px 0,#3b3b3b -2px -2px 0,  #3b3b3b -2px 2px 0, #3b3b3b 2px -2px 0;
+            text-shadow: #3b3b3b 2px 2px 0, #3b3b3b -2px -2px 0, #3b3b3b -2px 2px 0, #3b3b3b 2px -2px 0;
         }
+
         &__subtitle {
             font-size: 1.5rem;
         }
+
         &__btn {
             width: 120px;
             height: 50px;
@@ -49,6 +53,7 @@ li {
 @media (max-width: 768px) {
     .header {
         justify-content: space-around;
+
         &__logo {
             display: none;
         }
@@ -57,19 +62,59 @@ li {
     .filter {
         width: 50%;
     }
+
     select {
         width: 90%;
         font-size: 20px;
     }
-    
-    
-    
+
     label {
         font-size: 24px;
     }
-         
-    
+
+
+    .footer {
+        &__text {
+            display: none;
+        }
+
+        &__mobile {
+            display: block;
+        }
+    }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .header {
+        display: none;
+    }
+    .header__mobile {
+       /*  width: 100%; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0, 0, 0, .5);
+        height: 60px;
+        padding: 0 2%;
+    }
 
+
+    .filter {
+        width: 300px;
+    }
+
+    label {
+        display: none;
+    }
+
+    select {
+        width: 100%;
+        margin: 3% 5%;
+    }
+
+    .contact {
+        height: 100vh;
+    }
+
+
+}
