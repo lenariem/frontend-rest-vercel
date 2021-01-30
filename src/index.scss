@@ -36,9 +36,40 @@ li {
 
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .contact {
+        &__img {
+            &-chefs {
+                display: none;
+            }
+        }
+    }
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .header {
+        justify-content: space-around;
+        &__logo {
+            display: none;
+        }
+    }
+
+    .filter {
+        width: 50%;
+    }
+    select {
+        width: 90%;
+        font-size: 20px;
+    }
+    
+    
+    
+    label {
+        font-size: 24px;
+    }
+         
+    
+}
 
 @media (max-width: 576px) {}
 

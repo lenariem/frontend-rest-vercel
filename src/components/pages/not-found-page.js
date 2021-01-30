@@ -21,6 +21,7 @@ const linkStyle = {
     textDecoration: 'underline'
 }
 
+
 const NotFoundPage = () => {
     return (
         <div className="notFoundPage" style={pageStyle}>
