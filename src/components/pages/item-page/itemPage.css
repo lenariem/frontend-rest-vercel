@@ -96,3 +96,13 @@
 .milk {
     background-image: url('./icons/milk.svg');
 }
+
+@media (max-width: 1200px) {
+    .item_block{
+        width: 600px;
+    }
+    .milk {
+      width: 50px;
+      height: 60px;
+    }
+}
