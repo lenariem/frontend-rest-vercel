@@ -10,7 +10,8 @@ https://frontend-rest-vercel.vercel.app/
 * SCSS;
 * Node.js/Express; 
 * MongoDB/Mongoose;
-* Vercel
+* Vercel;
+* responsive for different devices
 
 ### User can:
 * investigate menu and sort by categories;
