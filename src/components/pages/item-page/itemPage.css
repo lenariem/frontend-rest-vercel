@@ -106,3 +106,9 @@
       height: 60px;
     }
 }
+
+@media (max-width: 576px) {
+    .item_block{
+        width: 400px;
+    }
+}

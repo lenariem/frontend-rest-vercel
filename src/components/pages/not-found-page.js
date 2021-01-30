@@ -11,14 +11,14 @@ const pageStyle = {
 }
 
 const imgStyle = {
-    width: '450px',
-    height: '350px',
-    margin: '1%'
+    width: '30%',
+    margin: '1% 1% 0%'
 }
 
 const linkStyle = {
-    fontSize: '2rem',
-    textDecoration: 'underline'
+    fontSize: '1.5rem',
+    textDecoration: 'underline',
+    margin: '0%'
 }
 
 
