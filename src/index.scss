@@ -107,7 +107,6 @@ li {
     }
 
     .header__mobile {
-        /*  width: 100%; */
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -129,56 +128,69 @@ li {
         width: 100%;
         margin: 3% 5%;
     }
-.cart {
-    &__item {
-        width: 280px;
-        &-title, &-price  {
-           
-            text-align: center;
-            font-size: 18px;
+
+    
+        .menu__category_Img {
+            display: none;
         }
-        &-img {
-            height: 125px;
-            width: 125px;
-            object-fit: cover;
+    
+
+    .cart {
+        &__item {
+            width: 280px;
+
+            &-title,
+            &-price {
+
+                text-align: center;
+                font-size: 18px;
+            }
+
+            &-img {
+                height: 125px;
+                width: 125px;
+                object-fit: cover;
+            }
         }
     }
-}
+
     .contact {
         &__container {
             justify-content: center;
         }
+
         &__title {
             font-size: 2rem;
             text-shadow: #3b3b3b 2px 2px 0, #3b3b3b -2px -2px 0, #3b3b3b -2px 2px 0, #3b3b3b 2px -2px 0;
         }
+
         &__form {
             padding: 10% 0% 1%;
             grid-template: 55px 55px 190px 65px / 300px;
             justify-content: center;
         }
-    
+
         &__triggers {
             grid-column: 1 / 2;
             grid-template-columns: 1fr;
         }
-    
+
         &__textarea {
             grid-column: 1 / 2;
         }
 
         &__btn {
             border-radius: 0px;
-            outline: 0.5px solid  #3b3b3b;
+            outline: 0.5px solid #3b3b3b;
         }
 
         &__policy {
             margin-top: 2%;
             text-align: center;
-    
+
             input {
                 margin-right: 5px;
-                
+
             }
         }
     }

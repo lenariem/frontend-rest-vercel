@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import cartIcon from './shopping-cart-solid.svg'
 import homeIcon from './home.svg'
+import mailIcon from './email.svg'
 import logo from './logo.png'
 
 import './app-header.scss'
@@ -21,7 +22,7 @@ const AppHeader = ({totalPrice}) => {
                 Total: {totalPrice}$
             </Link>
             <Link to = {'/orders'} className="header__link">Orders</Link>
-            <Link to = {'/contact'} className="header__link">Contact us	&#128386;</Link>
+            <Link to = {'/contact'} className="header__link">Contact us	<img className="header__mail" src={mailIcon} alt="contact us"></img></Link>
         </header>
 
         <nav className="header__mobile">
@@ -32,7 +33,7 @@ const AppHeader = ({totalPrice}) => {
                 {totalPrice}$
             </Link>
             <Link to = {'/orders'} className="header__link">Order</Link>
-            <Link to = {'/contact'} className="header__link">&#128386;</Link>
+            <Link to = {'/contact'} className="header__link"><img className="header__mail" src={mailIcon} alt="contact us"></img></Link>
         </nav>
 
         </>
