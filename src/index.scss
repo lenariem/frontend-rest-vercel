@@ -82,14 +82,15 @@ li {
         font-size: 24px;
     }
 
-
     .footer {
         &__text {
             display: none;
         }
-
         &__mobile {
             display: block;
+        }
+        &__envelope {
+            display: none;
         }
     }
 }
@@ -112,7 +113,6 @@ li {
         align-items: center;
         background-color: rgba(0, 0, 0, .5);
         height: 60px;
-        /* padding: 0 2%; */
     }
 
 
@@ -194,6 +194,4 @@ li {
             }
         }
     }
-
-
 }

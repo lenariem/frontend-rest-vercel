@@ -2,20 +2,24 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
     gap: 1%;
-    align-items: center;
-    text-shadow: 1px 1px 2px black;
     color: #fff;
+    text-shadow: 1px 1px 2px black;
 
     &__mail {
         text-shadow: 1px 1px 2px black;
         color: #fff;
         text-decoration: none;
+        cursor: pointer;
     }
+
+    &__envelope {
+        width: 15px; 
+    }
+
     &__mobile {
         display: none;
     }
