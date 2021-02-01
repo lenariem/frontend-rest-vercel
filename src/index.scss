@@ -112,7 +112,7 @@ li {
         align-items: center;
         background-color: rgba(0, 0, 0, .5);
         height: 60px;
-        padding: 0 2%;
+        /* padding: 0 2%; */
     }
 
 
@@ -129,11 +129,11 @@ li {
         margin: 3% 5%;
     }
 
-    
-        .menu__category_Img {
-            display: none;
-        }
-    
+
+    .menu__category_Img {
+        display: none;
+    }
+
 
     .cart {
         &__item {
