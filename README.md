@@ -8,6 +8,7 @@ https://frontend-rest-vercel.vercel.app/
 * React JS (Redux, Context);
 * JavaScript;
 * SCSS;
+* BEM;
 * Node.js/Express; 
 * MongoDB/Mongoose;
 * Vercel;
