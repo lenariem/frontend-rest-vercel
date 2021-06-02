@@ -4,6 +4,9 @@
 
 https://frontend-rest-vercel.vercel.app/ 
 
+#### backend code: 
+https://github.com/lenariem/backend-rest-vercel
+
 ### Technologies used: 
 * React JS (Redux, Context);
 * JavaScript;
@@ -21,3 +24,4 @@ https://frontend-rest-vercel.vercel.app/
 * make an order and see orders history;
 * give the delivery address and payment information;
 * send me a message through contact form
+
